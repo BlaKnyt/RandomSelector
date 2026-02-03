@@ -21,7 +21,7 @@ def set_page_bg(image_file):
         mime_type = "image/jpeg"
 
     bin_str = get_base64_of_bin_file(image_file)
-    
+
     page_bg_img = f'''
     <style>
     .stApp {{
@@ -62,7 +62,7 @@ def reset_app():
 st.set_page_config(page_title="Random Selector", page_icon="🎲", layout="centered")
 
 # Ensure this matches your filename in IntelliJ exactly
-YOUR_IMAGE_FILENAME = 'your_image.jpg' 
+YOUR_IMAGE_FILENAME = 'RainingChips.jpg'
 set_page_bg(YOUR_IMAGE_FILENAME)
 
 # --- 4. UI ELEMENTS ---
